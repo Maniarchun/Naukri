@@ -19,7 +19,11 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features ="C:\\Users\\ELCOT\\eclipse-workspace\\Naukri\\src\\test\\java\\com\\feature\\Naukri.feature",
 				glue = "com.stepdefintion",
 				
-				monochrome = true)
+				monochrome = true,
+				plugin = {"pretty",
+						"html:Report/Naukri.html",
+						"json:Report/Naukri.json",
+						"junit:Report/Naukri.xml"})
 
 public class NaukriRunner {
 	public static WebDriver driver;
