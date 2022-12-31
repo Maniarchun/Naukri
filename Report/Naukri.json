@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "LoginPage",
+        "description": "",
+        "id": "upload-resume-into-naukri;loginpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42916634700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The Application Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3025198400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Click The Login",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2613452800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The User Name",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_User_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 570073600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enther The Password",
+            "match": {
+              "location": "StepDefinition.user_Enther_The_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425170900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click The To Login",
+            "match": {
+              "location": "StepDefinition.user_Click_The_To_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37187243300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Click The Profile Option Icon",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Profile_Option_Icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1066871900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Click The Update Profile",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Update_Profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6521169900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Delete The Resume",
+            "match": {
+              "location": "StepDefinition.user_Delete_The_Resume()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7604642100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Upload The Resume",
+            "match": {
+              "location": "StepDefinition.user_Upload_The_Resume()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3246877900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Refresh The Page",
+            "match": {
+              "location": "StepDefinition.user_Refresh_The_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10030350100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Again Click The Profile Option Icon",
+            "match": {
+              "location": "StepDefinition.user_Again_Click_The_Profile_Option_Icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7152306200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Click The Logout",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Upload Resume into Naukri",
+    "description": "",
+    "id": "upload-resume-into-naukri",
+    "keyword": "Feature",
+    "uri": "C:/Users/ELCOT/eclipse-workspace/Naukri/src/test/java/com/feature/Naukri.feature",
+    "tags": []
+  }
+]
